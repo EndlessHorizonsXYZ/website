@@ -59,9 +59,9 @@ p, h1, h2, h3, h4, h5, h6 {
     /*background: -webkit-linear-gradient(#904ff3, #4f99dc, #19d9c7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
-    color: rgb(47 47 47 / 70%)!important;
+    color: rgb(47 47 47 / 70%) !important;
     font-weight: 100;
-    
+
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 3.2rem;
     letter-spacing: 0.8rem;
@@ -73,7 +73,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .subtitle {
     text-align: center;
-    color: rgba(255, 255, 255, 0.7)!important;
+    color: rgba(255, 255, 255, 0.7) !important;
     font-size: 1.3rem;
 }
 
@@ -143,4 +143,21 @@ footer {
 
 .has-text-centered>* {
     color: #2b2b2b !important;
+}
+
+@media (max-width: 760px) {
+    #main {
+        height: 85vh!important;
+    }
+    
+    .title {
+        font-size: 2rem;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .subtitle {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
